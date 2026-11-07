@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="67 Konzerte mit Violoncello · November 2026 bis Dezember 2027 · Stand: 7. November 2026">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Cello-Konzerte">
+<meta property="og:description" content="67 Konzerte mit Violoncello · November 2026 bis Dezember 2027 · Stand: 7. November 2026">
+<meta property="og:url" content="https://kali2000.github.io/cello-konzerte/">
+<meta property="og:image" content="https://kali2000.github.io/cello-konzerte/preview.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<title>Cello-Konzerte — November 2026 bis Dezember 2027</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    font-size: 14px;
+    background: #faf8f5;
+    color: #3d3530;
+    line-height: 1.6;
+    min-height: 100vh;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+.hero {
+    background: linear-gradient(135deg, #2c1810 0%, #5c3a2e 50%, #8b6f5e 100%);
+    color: #fff;
+    padding: 3rem 2rem 2.5rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.hero::before {
+    content: '';
+    position: absolute;
+    top: -50%; left: -50%;
+    width: 200%; height: 200%;
+    background: radial-gradient(circle at 30% 70%, rgba(212,175,143,0.15) 0%, transparent 50%),
+                radial-gradient(circle at 70% 30%, rgba(255,255,255,0.08) 0%, transparent 40%);
+    pointer-events: none;
+}
+.hero h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.4rem;
+    position: relative;
+}
+.hero .subtitle {
+    font-size: 0.9rem;
+    font-weight: 300;
+    opacity: 0.85;
+    letter-spacing: 0.3px;
+    position: relative;
+}
+.hero .period {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.35rem 1.2rem;
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    position: relative;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 3rem;
+}
+
+.meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e8e0d8;
+    font-size: 0.8rem;
+    color: #9a8b7d;
+}
+
+.concert-card {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1.4rem 0;
+    border-bottom: 1px solid #efe9e2;
+    transition: background 0.2s;
+}
+.concert-card:last-child { border-bottom: none; }
+@media (hover: hover) {
+    .concert-card:hover { background: rgba(139,111,94,0.04); margin: 0 -1rem; padding-left: 1rem; padding-right: 1rem; border-radius: 8px; }
+}
+
+.concert-date {
+    min-width: 140px;
+    flex-shrink: 0;
+}
+.concert-date .day {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #5c3a2e;
+}
+.concert-date .time {
+    font-size: 0.8rem;
+    color: #9a8b7d;
+    margin-top: 0.15rem;
+}
+
+.concert-info .title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #2c1810;
+    margin-bottom: 0.3rem;
+}
+.concert-info .venue {
+    font-size: 0.85rem;
+    color: #7a6b5d;
+    margin-bottom: 0.3rem;
+}
+.concert-info .venue .city {
+    color: #a0917f;
+}
+.concert-info .artists {
+    font-size: 0.82rem;
+    color: #8b7b6b;
+    font-style: italic;
+    margin-bottom: 0.25rem;
+}
+.concert-info .details {
+    font-size: 0.8rem;
+    color: #a09080;
+    margin-bottom: 0.4rem;
+}
+.concert-info .link {
+    font-size: 0.78rem;
+    color: #8b6f5e;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    transition: color 0.2s;
+}
+.concert-info .link:hover { color: #5c3a2e; text-decoration: underline; }
+@media (pointer: coarse) {
+    .concert-info .link { display: inline-block; padding: 0.35rem 0; font-size: 0.85rem; }
+}
+
+.empty {
+    text-align: center;
+    color: #a09080;
+    font-style: italic;
+    padding: 3rem 0;
+}
+
+.footer {
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.72rem;
+    color: #b8a99a;
+    border-top: 1px solid #efe9e2;
+    margin-top: 1rem;
+}
+
+@media (max-width: 600px) {
+    body { font-size: 15px; }
+    .hero { padding: 2.2rem 1.2rem 1.8rem; }
+    .hero h1 { font-size: 1.5rem; }
+    .container { padding: 1.5rem 1.1rem 2.5rem; }
+    .concert-card { flex-direction: column; gap: 0.3rem; }
+    .concert-date { min-width: auto; display: flex; gap: 0.8rem; align-items: baseline; }
+}
+</style>
+</head>
+<body>
+
+<div class="hero">
+    <h1>Cello-Konzerte</h1>
+    <div class="subtitle">Veranstaltungen mit Violoncello in der Region</div>
+    <div class="period">November 2026 bis Dezember 2027</div>
+</div>
+
+<div class="container">
+    <div class="meta">
+        <span>67 Konzerte</span>
+        <span>Stand: 7. November 2026</span>
+    </div>
+    
+    
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">7. November 2026</div>
+                <div class="time">19:15 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">Christian Tetzlaff - 60 - Aus der Mitte</div>
+                <div class="venue">Casals Forum, Großer Saal<span class="city">, Kronberg</span></div>
+                <div class="artists">Christian Tetzlaff</div>
+                <div class="details">Geburtstagskonzert der Saison 2026/2027</div>
+                <a class="link" href="https://www.kronbergacademy.de" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">8. November 2026</div>
+                <div class="time">11:00 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">2. Sinfoniekonzert</div>
+                <div class="venue">Staatstheater Darmstadt, Großes Haus<span class="city">, Darmstadt</span></div>
+                
+                <div class="details">Werke von Samuel Barber, Béla Bartók und Ludwig van Beethoven</div>
+                <a class="link" href="https://www.staatstheater-darmstadt.de" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">9. November 2026</div>
+                <div class="time">20:00 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">2. Sinfoniekonzert</div>
+                <div class="venue">Staatstheater Darmstadt, Großes Haus<span class="city">, Darmstadt</span></div>
+                
+                <div class="details">Werke von Samuel Barber, Béla Bartók und Ludwig van Beethoven</div>
+                <a class="link" href="https://www.staatstheater-darmstadt.de" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">11. November 2026</div>
+                <div class="time">19:15 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">Between Worlds - Amira Abouzahra</div>
+                <div class="venue">Casals Forum, Carl Bechstein Saal<span class="city">, Kronberg</span></div>
+                <div class="artists">A. Abouzahra, M. Abouzahra, Barragán, Isaacs, Neubauer, Várdai</div>
+                <div class="details">2026/2027 Mittwochskonzerte</div>
+                <a class="link" href="https://casalsforum.de/kalender/veranstaltung/20262027-mittwochskonzerte#c460" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">11. November 2026</div>
+                <div class="time">19:15 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">Between Worlds - Amira Abouzahra</div>
+                <div class="venue">Casals Forum, Carl Bechstein Saal<span class="city">, Kronberg</span></div>
+                <div class="artists">Amira Abouzahra</div>
+                <div class="details">Mittwochskonzert der Saison 2026/2027</div>
+                <a class="link" href="https://www.kronbergacademy.de" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">12. November 2026</div>
+                <div class="time">20:00 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">Daniel Ottensamer (Klarinette), Stephan Koncz (Violoncello), Christoph Traxler (Klavier): Nicht nur Gassenhauer</div>
+                <div class="venue">Alte Oper, Mozart Saal<span class="city">, Frankfurt am Main</span></div>
+                <div class="artists">Daniel Ottensamer (Klarinette), Stephan Koncz (Violoncello), Christoph Traxler (Klavier)</div>
+                
+                <a class="link" href="https://www.alteoper.de/de/programm?date=2026-11-12" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">18. November 2026</div>
+                <div class="time">20:00 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">Finnish Radio Symphony Orchestra</div>
+                <div class="venue">Alte Oper Frankfurt<span class="city">, Frankfurt am Main</span></div>
+                <div class="artists">Sol Gabetta (Violoncello), Nicholas Collon (Leitung), Finnish Radio Symphony Orchestra</div>
+                
+                <a class="link" href="https://proarte-frankfurt.de/konzerte/" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">18. November 2026</div>
+                <div class="time">19:15 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">Mittwochskonzert Jacques Forestier</div>
+                <div class="venue">Casals Forum, Carl Bechstein Saal<span class="city">, Kronberg</span></div>
+                <div class="artists">Forestier</div>
+                <div class="details">2026/2027 Mittwochskonzerte</div>
+                <a class="link" href="https://casalsforum.de/kalender/veranstaltung/20262027-mittwochskonzerte#c460" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">18. November 2026</div>
+                <div class="time">19:15 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">Mittwochskonzert Jacques Forestier</div>
+                <div class="venue">Casals Forum, Carl Bechstein Saal<span class="city">, Kronberg</span></div>
+                <div class="artists">Jacques Forestier</div>
+                <div class="details">Mittwochskonzert der Saison 2026/2027</div>
+                <a class="link" href="https://www.kronbergacademy.de" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">20. November 2026</div>
+                <div class="time">19:00 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">Eröffnungskonzert</div>
+                <div class="venue">Casals Forum, Carl Bechstein Saal<span class="city">, Kronberg</span></div>
+                
+                <div class="details">Zu Gast im Casals Forum</div>
+                <a class="link" href="https://www.kronbergacademy.de" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">21. November 2026</div>
+                <div class="time">19:15 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">Antje Weithaas - 60 - Aus dem Innersten</div>
+                <div class="venue">Casals Forum, Großer Saal<span class="city">, Kronberg</span></div>
+                <div class="artists">Hecker, Larivière, Okamoto, Orchester aus Freunden, Kollegen und Schülern von Antje Weithaas sowie Mitgliedern der Kronberg Academy und der Hochschule für Musik und Darstellende Kunst Frankfurt</div>
+                <div class="details">2026/2027 Geburtstage</div>
+                <a class="link" href="https://casalsforum.de/kalender/veranstaltung/20262027-geburtstage#c460" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">21. November 2026</div>
+                <div class="time">10:30 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">Nominees in Concert</div>
+                <div class="venue">Casals Forum, Carl Bechstein Saal<span class="city">, Kronberg</span></div>
+                
+                <div class="details">Zu Gast im Casals Forum, 10:30 - 17:00 Uhr</div>
+                <a class="link" href="https://www.kronbergacademy.de" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">25. November 2026</div>
+                <div class="time">19:15 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">Mittwochskonzert Antoni Wrona</div>
+                <div class="venue">Casals Forum, Carl Bechstein Saal<span class="city">, Kronberg</span></div>
+                <div class="artists">Wrona</div>
+                <div class="details">2026/2027 Mittwochskonzerte</div>
+                <a class="link" href="https://casalsforum.de/kalender/veranstaltung/20262027-mittwochskonzerte#c460" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">26. November 2026</div>
+                <div class="time">20:00 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">3. Kammerkonzert</div>
+                <div class="venue">Staatstheater Darmstadt, Kleines Haus<span class="city">, Darmstadt</span></div>
+                
+                <div class="details">Heinrich Schütz Historia Nativitatis nach SWV 435. Ein (Vor-) weihnachtliches Barockfest</div>
+                <a class="link" href="https://www.staatstheater-darmstadt.de" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">29. November 2026</div>
+                <div class="time">17:00 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">CHOR /CELLO/LYRIK AN(WEITER)KOMMEN</div>
+                <div class="venue">Großer Saal, Casals Forum<span class="city">, Kronberg</span></div>
+                <div class="artists">Hofmann, Junge Kantorei, Kramer, Lipstein, Mann</div>
+                
+                <a class="link" href="https://casalsforum.de/kalender/veranstaltung/zu-gast-im-casals-forum#c460" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">2. Dezember 2026</div>
+                <div class="time">19:15 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">Mittwochskonzert Michael Wehrmeyer</div>
+                <div class="venue">Casals Forum, Carl Bechstein Saal<span class="city">, Kronberg</span></div>
+                <div class="artists">Wehrmeyer</div>
+                <div class="details">2026/2027 Mittwochskonzerte</div>
+                <a class="link" href="https://casalsforum.de/kalender/veranstaltung/20262027-mittwochskonzerte#c460" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">5. Dezember 2026</div>
+                <div class="time">19:00 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">Die 12 Cellisten der Berliner Philharmoniker</div>
+                <div class="venue">Alte Oper Frankfurt<span class="city">, Frankfurt am Main</span></div>
+                <div class="artists">Die 12 Cellisten der Berliner Philharmoniker</div>
+                
+                <a class="link" href="https://proarte-frankfurt.de/konzerte/" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">9. Dezember 2026</div>
+                <div class="time">19:15 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">Mittwochskonzert Avery Gagliano</div>
+                <div class="venue">Casals Forum, Carl Bechstein Saal<span class="city">, Kronberg</span></div>
+                <div class="artists">Gagliano</div>
+                <div class="details">2026/2027 Mittwochskonzerte</div>
+                <a class="link" href="https://casalsforum.de/kalender/veranstaltung/20262027-mittwochskonzerte#c460" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">10. Dezember 2026</div>
+                <div class="time">20:00 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">4. Kammerkonzert</div>
+                <div class="venue">Staatstheater Darmstadt, Kleines Haus<span class="city">, Darmstadt</span></div>
+                
+                <div class="details">Werke von Telemann, Perkinson, Ysaÿe, Paganini und Bach</div>
+                <a class="link" href="https://www.staatstheater-darmstadt.de" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">13. Dezember 2026</div>
+                <div class="time">11:00 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">3. Sinfoniekonzert</div>
+                <div class="venue">Staatstheater Darmstadt, Großes Haus<span class="city">, Darmstadt</span></div>
+                
+                <div class="details">Werke von Luigi Cherubini, Wolfgang Amadeus Mozart und Erich Wolfgang Korngold</div>
+                <a class="link" href="https://www.staatstheater-darmstadt.de" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">14. Dezember 2026</div>
+                <div class="time">20:00 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">3. Sinfoniekonzert</div>
+                <div class="venue">Staatstheater Darmstadt, Großes Haus<span class="city">, Darmstadt</span></div>
+                
+                <div class="details">Werke von Luigi Cherubini, Wolfgang Amadeus Mozart und Erich Wolfgang Korngold</div>
+                <a class="link" href="https://www.staatstheater-darmstadt.de" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">16. Dezember 2026</div>
+                <div class="time">19:15 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">Mittwochskonzert Charlotte Spruit</div>
+                <div class="venue">Casals Forum, Carl Bechstein Saal<span class="city">, Kronberg</span></div>
+                <div class="artists">Spruit</div>
+                <div class="details">2026/2027 Mittwochskonzerte</div>
+                <a class="link" href="https://casalsforum.de/kalender/veranstaltung/20262027-mittwochskonzerte#c460" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">21. Dezember 2026</div>
+                <div class="time">20:00 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">BACH UND TRIOSONATEN</div>
+                <div class="venue">Großer Saal, Casals Forum<span class="city">, Kronberg</span></div>
+                <div class="artists">Alard, Coetzee, Pahud, Spruit</div>
+                
+                <a class="link" href="https://casalsforum.de/kalender/veranstaltung/20262027-bach-im-fluss#c460" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">9. Januar 2027</div>
+                <div class="time">15:00 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">ÖFFENTLICHE GENERALPROBE BENEFIZKONZERT ZUM NEUEN JAHR 2027</div>
+                <div class="venue">Wagenhalle Griesheim<span class="city">, Griesheim</span></div>
+                <div class="artists">Deutsche Philharmonie Merck, Petar Pejčić (Violoncello), Gábor Hontvári (Dirigent)</div>
+                <div class="details">Dvořák: Konzert für Violoncello und Orchester h-Moll op. 104; Rimski-Korsakow: Scheherazade, op. 35</div>
+                <a class="link" href="https://philharmonie-merck.de/konzerte/oeffentl-gp-09-01-2027/" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">10. Januar 2027</div>
+                <div class="time">16:00 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">BENEFIZKONZERT ZUM NEUEN JAHR 2027</div>
+                <div class="venue">Kurhaus Wiesbaden<span class="city">, Wiesbaden</span></div>
+                <div class="artists">Deutsche Philharmonie Merck, Petar Pejčić (Violoncello), Gábor Hontvári (Dirigent)</div>
+                <div class="details">Dvořák: Konzert für Violoncello und Orchester h-Moll op. 104; Rimski-Korsakow: Scheherazade, op. 35</div>
+                <a class="link" href="https://philharmonie-merck.de/konzerte/neujahrskonzert-10-01-2027/" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">13. Januar 2027</div>
+                <div class="time">19:15 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">Mittwochskonzert Philipp Schupelius</div>
+                <div class="venue">Casals Forum, Carl Bechstein Saal<span class="city">, Kronberg</span></div>
+                <div class="artists">Schupelius</div>
+                <div class="details">2026/2027 Mittwochskonzerte</div>
+                <a class="link" href="https://casalsforum.de/kalender/veranstaltung/20262027-mittwochskonzerte#c460" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">14. Januar 2027</div>
+                <div class="time">20:00 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">5. Kammerkonzert</div>
+                <div class="venue">Staatstheater Darmstadt, Kleines Haus<span class="city">, Darmstadt</span></div>
+                
+                <div class="details">Werke von Beethoven, J.-S.Bach und Chopin</div>
+                <a class="link" href="https://www.staatstheater-darmstadt.de" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">16. Januar 2027</div>
+                <div class="time">20:00 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">THE CELLO SAMBA TRIO</div>
+                <div class="venue">Großer Saal, Casals Forum<span class="city">, Kronberg</span></div>
+                <div class="artists">Barata, Galvão, Morelenbaum</div>
+                
+                <a class="link" href="https://casalsforum.de/kalender/veranstaltung/20262027-cello-samba-trio#c460" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">17. Januar 2027</div>
+                <div class="time">11:00 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">4. Sinfonierkonzert</div>
+                <div class="venue">Staatstheater Darmstadt, Großes Haus<span class="city">, Darmstadt</span></div>
+                
+                <div class="details">Werke von Frédéric Chopin und Dmitri Schostakowitsch</div>
+                <a class="link" href="https://www.staatstheater-darmstadt.de" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">18. Januar 2027</div>
+                <div class="time">20:00 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">4. Sinfonierkonzert</div>
+                <div class="venue">Staatstheater Darmstadt, Großes Haus<span class="city">, Darmstadt</span></div>
+                
+                <div class="details">Werke von Frédéric Chopin und Dmitri Schostakowitsch</div>
+                <a class="link" href="https://www.staatstheater-darmstadt.de" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">20. Januar 2027</div>
+                <div class="time"></div>
+            </div>
+            <div class="concert-info">
+                <div class="title">Streichquartettfest</div>
+                <div class="venue">Konzerthaus Stadthalle Heidelberg<span class="city">, Heidelberg</span></div>
+                <div class="artists">Fibonacci Quartet, Javus Quartett, Kleio Quartet, Quartet Integra, Schumann Quartett</div>
+                <div class="details">Streichquartettfest mit Fokus auf amerikanische und Haydn-Quartette; Cello ist Teil der Streichquartettbesetzung.</div>
+                <a class="link" href="https://www.heidelberger-fruehling.de/streichquartettfest" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">20. Januar 2027</div>
+                <div class="time">19:15 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">Mittwochskonzert Isa Trotta</div>
+                <div class="venue">Casals Forum, Carl Bechstein Saal<span class="city">, Kronberg</span></div>
+                <div class="artists">Trotta</div>
+                <div class="details">2026/2027 Mittwochskonzerte</div>
+                <a class="link" href="https://casalsforum.de/kalender/veranstaltung/20262027-mittwochskonzerte#c460" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">21. Januar 2027</div>
+                <div class="time">19:45 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">BEETHOVEN IM DUO „SAITENWEISE CELLO &amp; KLAVIER II“</div>
+                <div class="venue">Großer Saal, Casals Forum<span class="city">, Kronberg</span></div>
+                <div class="artists">Hecker, Helmchen</div>
+                
+                <a class="link" href="https://casalsforum.de/kalender/veranstaltung/20262027-beethoven-im-duo#c460" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">11. Februar 2027</div>
+                <div class="time">20:00 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">6. Kammerkonzert</div>
+                <div class="venue">Staatstheater Darmstadt, Kleines Haus<span class="city">, Darmstadt</span></div>
+                
+                <div class="details">Werke von Bach, Auerbach, Strohl, Brahms und Boulanger</div>
+                <a class="link" href="https://www.staatstheater-darmstadt.de" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">14. Februar 2027</div>
+                <div class="time">11:00 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">5. Sinfoniekonzert</div>
+                <div class="venue">Staatstheater Darmstadt, Großes Haus<span class="city">, Darmstadt</span></div>
+                
+                <div class="details">Werke von Viktor Ullmann, Richard Strauss und Robert Schumann</div>
+                <a class="link" href="https://www.staatstheater-darmstadt.de" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">15. Februar 2027</div>
+                <div class="time">20:00 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">5. Sinfoniekonzert</div>
+                <div class="venue">Staatstheater Darmstadt, Großes Haus<span class="city">, Darmstadt</span></div>
+                
+                <div class="details">Werke von Viktor Ullmann, Richard Strauss und Robert Schumann</div>
+                <a class="link" href="https://www.staatstheater-darmstadt.de" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">11. Maerz 2027</div>
+                <div class="time">20:00 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">7. Kammerkonzert</div>
+                <div class="venue">Staatstheater Darmstadt, Kleines Haus<span class="city">, Darmstadt</span></div>
+                
+                <div class="details">Werke von Joseph Haydn, Krzysztof Meyer und Ludwig van Beethoven</div>
+                <a class="link" href="https://www.staatstheater-darmstadt.de" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">12. Maerz 2027</div>
+                <div class="time">19:45 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">All for Kremerata Baltica</div>
+                <div class="venue">Casals Forum, Carl Bechstein Saal<span class="city">, Kronberg</span></div>
+                <div class="artists">Kremer, Kremerata Baltica, Kronberg Young Soloists</div>
+                <div class="details">2026/2027 FSS Gidon Kremer</div>
+                <a class="link" href="https://casalsforum.de/kalender/veranstaltung/20262027-fss-gidon-kremer#c460" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">13. Maerz 2027</div>
+                <div class="time">19:15 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">KREMER.MIDORI.MAISKY: KLASSIKER UND KLANGSPRENGSTOFF</div>
+                <div class="venue">Großer Saal, Casals Forum<span class="city">, Kronberg</span></div>
+                <div class="artists">Kremer, Kremerata Baltica, Kronberg Young Soloists, Maisky, Midori</div>
+                
+                <a class="link" href="https://casalsforum.de/kalender/veranstaltung/20262027-fss-gidon-kremer#c460" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">14. Maerz 2027</div>
+                <div class="time">17:00 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">Gidon's Short Cuts - Encore!</div>
+                <div class="venue">Casals Forum, Großer Saal<span class="city">, Kronberg</span></div>
+                <div class="artists">Ibragimova, Kremer, Kremerata Baltica, Kronberg Young Soloists, Midori</div>
+                <div class="details">2026/2027 FSS Gidon Kremer</div>
+                <a class="link" href="https://casalsforum.de/kalender/veranstaltung/20262027-fss-gidon-kremer#c460" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">21. Maerz 2027</div>
+                <div class="time">11:00 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">6. Sinfoniekonzert</div>
+                <div class="venue">Staatstheater Darmstadt, Großes Haus<span class="city">, Darmstadt</span></div>
+                
+                <div class="details">Werke von Emilie Mayer, Henri Fredien Tomasi, Wolfgang Amadeus Mozart und Joseph Haydn</div>
+                <a class="link" href="https://www.staatstheater-darmstadt.de" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">22. Maerz 2027</div>
+                <div class="time">20:00 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">6. Sinfoniekonzert</div>
+                <div class="venue">Staatstheater Darmstadt, Großes Haus<span class="city">, Darmstadt</span></div>
+                
+                <div class="details">Werke von Emilie Mayer, Henri Fredien Tomasi, Wolfgang Amadeus Mozart und Joseph Haydn</div>
+                <a class="link" href="https://www.staatstheater-darmstadt.de" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">27. Maerz 2027</div>
+                <div class="time">16:30 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">100 JAHRE ROSTROPOVICH</div>
+                <div class="venue">Großer Saal, Casals Forum<span class="city">, Kronberg</span></div>
+                <div class="artists">Kronberg Young Soloists, Schmidt, Shchedryk Choir</div>
+                
+                <a class="link" href="https://casalsforum.de/kalender/veranstaltung/20262027-rostropovich-100#c460" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">8. April 2027</div>
+                <div class="time">20:00 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">CAROLIN WIDMANN (VIOLINE), NILS MÖNKEMEYER (VIOLA), JULIAN STECKEL (VIOLONCELLO), WILLIAM YOUN (KLAVIER)</div>
+                <div class="venue">Alte Oper, Mozart Saal<span class="city">, Frankfurt am Main</span></div>
+                <div class="artists">Carolin Widmann, Nils Mönkemeyer, Julian Steckel, William Youn</div>
+                <div class="details">Klavierquartett mit Carolin Widmann</div>
+                <a class="link" href="https://www.alteoper.de/de/programm?date=2027-04-08" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">9. April 2027</div>
+                <div class="time">09:30 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">Mit Musik – Miteinander: Öffentliche Proben</div>
+                <div class="venue">Casals Forum, Carl Bechstein Saal<span class="city">, Kronberg</span></div>
+                <div class="artists">Ferrández, Herbert, Jégou-Sageman, Teilnehmende des Workshops</div>
+                <div class="details">2026/2027 Mit Musik Miteinander (9.–11.4.)</div>
+                <a class="link" href="https://casalsforum.de/kalender/veranstaltung/20262027-mit-musik-miteinander#c460" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">11. April 2027</div>
+                <div class="time">15:00 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">Werkstattkonzert</div>
+                <div class="venue">Casals Forum, Großer Saal<span class="city">, Kronberg</span></div>
+                <div class="artists">Ferrández, Herbert, Jégou-Sageman, Teilnehmende des Workshops</div>
+                <div class="details">2026/2027 Mit Musik Miteinander</div>
+                <a class="link" href="https://casalsforum.de/kalender/veranstaltung/20262027-mit-musik-miteinander#c460" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">25. April 2027</div>
+                <div class="time">11:00 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">7. Sinfoniekonzert</div>
+                <div class="venue">Staatstheater Darmstadt, Großes Haus<span class="city">, Darmstadt</span></div>
+                
+                <div class="details">Werke von Milica Djordjević, Ludwig van Beethoven und Sergej Prokofjew</div>
+                <a class="link" href="https://www.staatstheater-darmstadt.de" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">26. April 2027</div>
+                <div class="time">20:00 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">7. Sinfoniekonzert</div>
+                <div class="venue">Staatstheater Darmstadt, Großes Haus<span class="city">, Darmstadt</span></div>
+                
+                <div class="details">Werke von Milica Djordjević, Ludwig van Beethoven und Sergej Prokofjew</div>
+                <a class="link" href="https://www.staatstheater-darmstadt.de" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">29. April 2027</div>
+                <div class="time">20:00 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">8. Kammerkonzert</div>
+                <div class="venue">Staatstheater Darmstadt, Kleines Haus<span class="city">, Darmstadt</span></div>
+                
+                <div class="details">Werke von Beethoven, Karlowitsch, Debussy, Schubert und Schostakowitsch</div>
+                <a class="link" href="https://www.staatstheater-darmstadt.de" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">2. Mai 2027</div>
+                <div class="time">18:15 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">Chamber Music Festival - K1: Ungarn</div>
+                <div class="venue">Casals Forum, Großer Saal<span class="city">, Kronberg</span></div>
+                <div class="artists">Bouchkov, Consonni, Ferrández, Hamos, Johanns, Lee, Lewis, Momen, Moreau, Roozeman</div>
+                <div class="details">2026/2027 Chamber Music Festival</div>
+                <a class="link" href="https://casalsforum.de/kalender/veranstaltung/20262027-chamber-music-festival#c460" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">4. Mai 2027</div>
+                <div class="time">20:00 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">ANASTASIA KOBEKINA, VIOLONCELLO</div>
+                <div class="venue">Alte Oper, Großer Saal<span class="city">, Frankfurt am Main</span></div>
+                <div class="artists">Anastasia Kobekina</div>
+                <div class="details">Von der Wiener Klassik bis zur musikalischen Moderne</div>
+                <a class="link" href="https://www.alteoper.de/de/programm?date=2027-05-04" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">4. Mai 2027</div>
+                <div class="time">20:00 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">Anastasia Kobekina</div>
+                <div class="venue">Alte Oper Frankfurt<span class="city">, Frankfurt am Main</span></div>
+                <div class="artists">Anastasia Kobekina (Violoncello), Academy of St Martin in the Fields</div>
+                
+                <a class="link" href="https://proarte-frankfurt.de/konzerte/page/2/" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">4. Mai 2027</div>
+                <div class="time"></div>
+            </div>
+            <div class="concert-info">
+                <div class="title">Haydn Concerto C Major and Stravinsky Suite italienne</div>
+                <div class="venue">Alte Oper, Frankfurt am Main<span class="city">, Frankfurt am Main</span></div>
+                <div class="artists">Anastasia Kobekina (Cello), St. Martin in the Fields</div>
+                <div class="details">Haydn Cellokonzert C-Dur, Stravinsky Suite italienne</div>
+                <a class="link" href="https://www.kobekina.info/concerts" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">4. Mai 2027</div>
+                <div class="time">19:45 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">Chamber Music Festival - K2: Italien</div>
+                <div class="venue">Casals Forum, Großer Saal<span class="city">, Kronberg</span></div>
+                <div class="artists">Bouchkov, Ceku, Ferràndez, Lee, Lewis, Lipman, Roozeman, Sitkovetsky, Soltani, Soulez-Larivière</div>
+                <div class="details">2026/2027 Chamber Music Festival</div>
+                <a class="link" href="https://casalsforum.de/kalender/veranstaltung/20262027-chamber-music-festival#c460" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">5. Mai 2027</div>
+                <div class="time">19:45 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">Chamber Music Festival - K3: Österreich</div>
+                <div class="venue">Casals Forum, Großer Saal<span class="city">, Kronberg</span></div>
+                <div class="artists">Duval, Höfele, Jégou-Sageman, Lewis, Lipman, Momen, Moreau, Oe, Schwabe, Soulez-Larivière, Thiele</div>
+                <div class="details">2026/2027 Chamber Music Festival</div>
+                <a class="link" href="https://casalsforum.de/kalender/veranstaltung/20262027-chamber-music-festival#c460" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">6. Mai 2027</div>
+                <div class="time">19:45 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">Chamber Music Festival - K4: Frankreich</div>
+                <div class="venue">Casals Forum, Großer Saal<span class="city">, Kronberg</span></div>
+                <div class="artists">Abdelmoula, Duval, Jégou-Sageman, Johanns, Kloeckner, Lipman, Mohamed, Navon, Schwabe, Soulez-Larivière, Verherve, Winker</div>
+                <div class="details">2026/2027 Chamber Music Festival</div>
+                <a class="link" href="https://casalsforum.de/kalender/veranstaltung/20262027-chamber-music-festival#c460" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">7. Mai 2027</div>
+                <div class="time">19:45 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">Chamber Music Festival - K5: Russland</div>
+                <div class="venue">Casals Forum, Großer Saal<span class="city">, Kronberg</span></div>
+                <div class="artists">Abdelmoula, Hamos, Kim, Kuyumcuyan, Mohamed, Oe, Schwabe, Soulez-Larivière, Thiele</div>
+                <div class="details">2026/2027 Chamber Music Festival</div>
+                <a class="link" href="https://casalsforum.de/kalender/veranstaltung/20262027-chamber-music-festival#c460" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">8. Mai 2027</div>
+                <div class="time">19:15 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">Chamber Music Festival - K6: Polen</div>
+                <div class="venue">Casals Forum, Großer Saal<span class="city">, Kronberg</span></div>
+                <div class="artists">Abdelmoula, Consonni, Duval, Fritsch, Kim, Moreau, Moreau, Oe, Soulez-Lariviere, Xu</div>
+                <div class="details">2026/2027 Chamber Music Festival</div>
+                <a class="link" href="https://casalsforum.de/kalender/veranstaltung/20262027-chamber-music-festival#c460" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">9. Mai 2027</div>
+                <div class="time">18:15 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">Chamber Music Festival - K7: Norwegen</div>
+                <div class="venue">Casals Forum, Großer Saal<span class="city">, Kronberg</span></div>
+                <div class="artists">Duval, Fritsch, Hemsing, Jégou-Sageman, Kim, Mohamed, Moreau, Navon, Oe, Soulez-Larivière, Thiele, Xu</div>
+                <div class="details">2026/2027 Chamber Music Festival</div>
+                <a class="link" href="https://casalsforum.de/kalender/veranstaltung/20262027-chamber-music-festival#c460" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">20. Mai 2027</div>
+                <div class="time">20:00 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">9. Kammerkonzert</div>
+                <div class="venue">Staatstheater Darmstadt, Kleines Haus<span class="city">, Darmstadt</span></div>
+                
+                <div class="details">Werke von Johann Jakob Froberger, Jean Philippe Rameau, Georges Aperghis, Leoš Janáček, Heinz Holliger, Béla Bartók und Luciano Berio</div>
+                <a class="link" href="https://www.staatstheater-darmstadt.de" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">28. Mai 2027</div>
+                <div class="time">19:45 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">Janine Jansen &amp; Friends: Poetische Farben</div>
+                <div class="venue">Casals Forum, Carl Bechstein Saal<span class="city">, Kronberg</span></div>
+                <div class="artists">Jansen, Kozhukhin, Kronberg Young Soloists</div>
+                <div class="details">2026/2027 FSS Janine Jansen</div>
+                <a class="link" href="https://casalsforum.de/kalender/veranstaltung/20262027-fss-janine-jansen#c460" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">29. Mai 2027</div>
+                <div class="time">19:15 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">JANINE JANSEN &amp; FRIENDS: DRAMATISCHE VARIATIONEN</div>
+                <div class="venue">Großer Saal, Casals Forum<span class="city">, Kronberg</span></div>
+                <div class="artists">Blendulf, Jansen, Kozhukhin, Kronberg Young Soloists</div>
+                
+                <a class="link" href="https://casalsforum.de/kalender/veranstaltung/20262027-fss-janine-jansen#c460" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">30. Mai 2027</div>
+                <div class="time">17:00 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">JANINE JANSEN &amp; FRIENDS: WEITE KLÄNGE</div>
+                <div class="venue">Großer Saal, Casals Forum<span class="city">, Kronberg</span></div>
+                <div class="artists">Blendulf, Jansen, Kozhukhin, Kronberg Young Soloists</div>
+                
+                <a class="link" href="https://casalsforum.de/kalender/veranstaltung/20262027-fss-janine-jansen#c460" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">13. Juni 2027</div>
+                <div class="time">11:00 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">8. Sinfoniekonzert</div>
+                <div class="venue">Staatstheater Darmstadt, Großes Haus<span class="city">, Darmstadt</span></div>
+                
+                <div class="details">Gustav Mahler Sinfonie Nr. 9 D-Dur</div>
+                <a class="link" href="https://www.staatstheater-darmstadt.de" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">14. Juni 2027</div>
+                <div class="time">20:00 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">8. Sinfoniekonzert</div>
+                <div class="venue">Staatstheater Darmstadt, Großes Haus<span class="city">, Darmstadt</span></div>
+                
+                <div class="details">Gustav Mahler Sinfonie Nr. 9 D-Dur</div>
+                <a class="link" href="https://www.staatstheater-darmstadt.de" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">17. Juni 2027</div>
+                <div class="time">20:00 Uhr</div>
+            </div>
+            <div class="concert-info">
+                <div class="title">10. Kammerkonzert</div>
+                <div class="venue">Staatstheater Darmstadt, Kleines Haus<span class="city">, Darmstadt</span></div>
+                
+                <div class="details">Werke von Johann Jakob Froberger, Jean Philippe Rameau, Georges Aperghis, Leoš Janáček, Heinz Holliger, Béla Bartók und Luciano Berio</div>
+                <a class="link" href="https://www.staatstheater-darmstadt.de" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+        <div class="concert-card">
+            <div class="concert-date">
+                <div class="day">4. September 2027</div>
+                <div class="time"></div>
+            </div>
+            <div class="concert-info">
+                <div class="title">Elgar Concerto with the Tonhalle Orchestra Zürich and Paavo Järvi</div>
+                <div class="venue">Rheingau Music Festival, Wiesbaden<span class="city">, Wiesbaden</span></div>
+                <div class="artists">Anastasia Kobekina (cello), Tonhalle Orchestra Zürich, Paavo Järvi (conductor)</div>
+                <div class="details">Rheingau Music Festival</div>
+                <a class="link" href="https://www.kobekina.info/concerts" target="_blank" rel="noopener">Tickets &amp; Info &rarr;</a>
+            </div>
+        </div>
+</div>
+
+<div class="footer">
+    Erstellt mit dem Cello-Konzert-Agent
+</div>
+
+</body>
+</html>
